@@ -1,4 +1,7 @@
-APP/src/daegan/trained_models/*
+APP/src/daegan/trained_models/*.pth
+APP/src/daegan/trained_models/Model
+APP/src/daegan/trained_models/bird
+
 TRAIN/data/birds/CUB_200_2011
 TRAIN/data/birds/*.txt
 TRAIN/data/birds/*.pickle

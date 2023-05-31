@@ -40,7 +40,7 @@ This is a ML Homework.
     **Note:**
     I am going to share a drive link with the pre-trained models and pickles files but I am not the owner of these files. I just find very helpful to have all of them in just one link, since it was a bit tedious to find them all in the original repo. 
 
-    * [pretrained_models](https://drive.google.com/drive/folders/1V3uUyplzS1B-TSUeI_T56puykf0rl_L6?usp=sharing)
+    * [pretrained_models](https://drive.google.com/drive/folders/16FaCL_XToR0fX8KJRjkhPVYfLusLe0Mj?usp=drive_link)
 
     * [caption_data](https://drive.google.com/drive/folders/1V3uUyplzS1B-TSUeI_T56puykf0rl_L6?usp=sharing)
 
@@ -116,6 +116,13 @@ Local deploy based on streamlit framework
     ```bash
     pip install -r requeriments.txt
     ```
+
+2. **SET UP TRAINED MODELS**
+
+    * Download trained & pretrained models for inference in `APP/src/daegan/pretrained_models` folder   
+    * Expected distribution:
+    
+        ![](images/trained_models_distribution_app.png)
 
 2. **RUN LOCALLY**
 
