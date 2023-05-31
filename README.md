@@ -87,8 +87,8 @@ This is a ML Homework.
 
 8. **TRAINED MODEL**
 
-    * [disc.pth](https://drive.google.com/drive/folders/1tuLivH_jDZtM-kt0Cgjb3UD7OIewVvZy?usp=sharing)
-    * [gen.pth](https://drive.google.com/drive/folders/1tuLivH_jDZtM-kt0Cgjb3UD7OIewVvZy?usp=sharing)
+    * Disc Model: [netD0.pth](https://drive.google.com/drive/folders/1tuLivH_jDZtM-kt0Cgjb3UD7OIewVvZy?usp=sharing)
+    * Gen Model: [netG_epoch_1.pth](https://drive.google.com/drive/folders/1tuLivH_jDZtM-kt0Cgjb3UD7OIewVvZy?usp=sharing)
 
 9. **MODIFICATIONS**
 
@@ -121,7 +121,7 @@ Local deploy based on streamlit framework
 
     * Download trained & pretrained models for inference in `APP/src/daegan/pretrained_models` folder   
     * Expected distribution:
-    
+
         ![](images/trained_models_distribution_app.png)
 
 2. **RUN LOCALLY**
