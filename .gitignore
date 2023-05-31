@@ -8,6 +8,8 @@ TRAIN/data/birds/text
 
 TRAIN/pretrained_models/*.pth
 TRAIN/output/*
+
+*.zip
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -37,6 +37,15 @@ This is a ML Homework.
 
 3. **TRAINING**
 
+    **Note:**
+    I am going to share a drive link with the pre-trained models and pickles files but I am not the owner of these files. I just find very helpful to have all of them in just one link, since it was a bit tedious to find them all in the original repo. 
+
+    * [pretrained_models](https://drive.google.com/drive/folders/1V3uUyplzS1B-TSUeI_T56puykf0rl_L6?usp=sharing)
+
+    * [caption_data](https://drive.google.com/drive/folders/1V3uUyplzS1B-TSUeI_T56puykf0rl_L6?usp=sharing)
+
+    Then, steps for training:
+
     a. download dataset in folder `data/birds`
 
     b. download captions.pickle, pre-trained models (image_encoder200.pth & text_encoder200.pth) and captions texts to `pretrained_models`.
@@ -50,8 +59,7 @@ This is a ML Homework.
 
     f. output trained models are saved in `output` folder
 
-    **Note:**
-    I am going to share a drive link with the pre-trained models and pickles files but I am not the owner of these files. I just find very helpful to have all of them in just one link, since it was a bit tedious to find them all in the original repo. 
+    
 
 
 4. **SAMPLE INPUT - OUTPUT**
@@ -79,12 +87,12 @@ This is a ML Homework.
 
 8. **TRAINED MODEL**
 
-    * [disc.pth]()
-    * [gen.pth]()
+    * [disc.pth](https://drive.google.com/drive/folders/1tuLivH_jDZtM-kt0Cgjb3UD7OIewVvZy?usp=sharing)
+    * [gen.pth](https://drive.google.com/drive/folders/1tuLivH_jDZtM-kt0Cgjb3UD7OIewVvZy?usp=sharing)
 
 9. **MODIFICATIONS**
 
-    Regarding modifications from the original repo and this specific ML homework are basically updates in Pytorch functions and gpu role in dataset dataloader since the original repo has a train file for multiple trainning distribution. Also, a inference file has been created in order to get a modular code for new data in 
+    Regarding modifications from the original repo and this specific ML homework are basically updates in Pytorch functions and gpu role in dataset dataloader since the original repo has a train file for multiple trainning distribution. Also, a inference file has been created in order to get a modular code for local deployment.
 
 
 
