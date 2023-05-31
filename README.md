@@ -70,3 +70,43 @@ This is a ML Homework.
 
 
 ## TASK 2: LOCAL DEPLOY MODEL
+
+Local deploy based on streamlit framework
+
+1. **INSTALL** (Anaconda for Python Environment)
+
+    *Make sure to install Anaconda*
+
+    a. create a conda environment 
+    ```bash
+    conda create -n dae python=3.9
+    ```
+    b. activate the `dae` environment
+    ```bash
+    conda create -n dae python=3.9
+    ```
+    c. Install dependecies
+    ```bash
+    pip install -r requeriments.txt
+    ```
+
+2. **RUN LOCALLY**
+
+    * Go inside folder `APP`
+    ```bash
+    streamlit run app.py 
+    ```
+
+3. **SAMPLES**
+
+    * INTRO
+
+    ![](images/intro_deploy.png)
+
+    * INPUT PROMPT
+
+    ![](images/input_prompt_deploy.png)
+
+    * OUTPUT
+
+    ![](images/output.png)

@@ -3,7 +3,7 @@ from src.daegan.miscc.utils import weights_init
 from src.daegan.model import G_NET
 from src.daegan.model import RNN_ENCODER, CNN_ENCODER
 from PIL import Image
-from torch.autograd import Variable
+# from torch.autograd import Variable
 import numpy as np
 import torch
 import json
@@ -161,7 +161,8 @@ class DAE_GAN:
         self.image_encoder.eval()
 
         nz = cfg.GAN.Z_DIM
-        self.noise = Variable(torch.FloatTensor(self.BATCH_SIZE, nz), volatile=True)
+        # self.noise = Variable(torch.FloatTensor(self.BATCH_SIZE, nz), volatile=True)
+        self.noise = torch.FloatTensor(self.BATCH_SIZE, nz)
         self.noise.to(self.device, non_blocking=True)
 
         # return None
