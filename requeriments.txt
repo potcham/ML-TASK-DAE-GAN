@@ -1,0 +1,8 @@
+torch==1.12.0
+torchvision==0.13.0
+python-dateutil==2.8.2
+easydict==1.10
+pandas==1.4.3
+torchfile==0.1.0
+nltk==3.8.1
+scikit-image==0.20.0
