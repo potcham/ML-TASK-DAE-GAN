@@ -1,5 +1,13 @@
 APP/src/daegan/trained_models/*
+TRAIN/data/birds/CUB_200_2011
+TRAIN/data/birds/*.txt
+TRAIN/data/birds/*.pickle
+TRAIN/data/birds/test
+TRAIN/data/birds/train
+TRAIN/data/birds/text
 
+TRAIN/pretrained_models/*.pth
+TRAIN/output/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

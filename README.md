@@ -37,17 +37,15 @@ This is a ML Homework.
 
 3. **TRAINING**
 
-    a. download data in folder `data/birds`
+    a. download dataset in folder `data/birds`
 
-    b. download captions.pickle in  `data/birds`
+    b. download captions.pickle, pre-trained models (image_encoder200.pth & text_encoder200.pth) and captions texts to `pretrained_models`.
 
-    c. download pre-trained models (image_encoder200.pth & text_encoder200.pth) to `DAMSMencoders/birds`.
-
-    d. Modify the `cfg/birds_DAEGAN_train.yaml`
+    d. Modify the `birds_DAEGAN_train.yaml` to your parameters. Since I am only trainnig for 1 epoch with a single gpu, I set BATCH_SIZE to 2 and MAX_EPOCH to 1.
 
     e. run 
     ```bash
-    python train.py --cfg cfg/bird_DAEGAN_train.yml --gpu 0
+    python train.py --cfg bird_DAEGAN_train.yml --gpu 0
     ```
 
     f. output trained models are saved in `output` folder
