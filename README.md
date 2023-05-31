@@ -4,7 +4,7 @@ This is a ML Homework.
 
 ## TASK 1: CHOOSING A MODEL
 
-    Find a Text to Image model with code and train it for only 1 epoch
+    Find a Text to Image model with code and train it for only 1 epoch.
 
 1. **MODEL** 
 
@@ -37,6 +37,25 @@ This is a ML Homework.
 
 3. **TRAINING**
 
+    a. download data in folder `data/birds`
+
+    b. download captions.pickle in  `data/birds`
+
+    c. download pre-trained models (image_encoder200.pth & text_encoder200.pth) to `DAMSMencoders/birds`.
+
+    d. Modify the `cfg/birds_DAEGAN_train.yaml`
+
+    e. run 
+    ```bash
+    python train.py --cfg cfg/bird_DAEGAN_train.yml --gpu 0
+    ```
+
+    f. output trained models are saved in `output` folder
+
+    **Note:**
+    I am going to share a drive link with the pre-trained models and pickles files but I am not the owner of these files. I just find very helpful to have all of them in just one link, since it was a bit tedious to find them all in the original repo. 
+
+
 4. **SAMPLE INPUT - OUTPUT**
 
     * INPUT: 
@@ -45,7 +64,7 @@ This is a ML Homework.
     ```
     * OUTPUT:
 
-    ![DAE-GAN Ouput](output/output.png)
+    ![DAE-GAN Ouput](APP/src/output/image_0.png)
 
 
 5. **TRAINING DATASET**
@@ -55,8 +74,8 @@ This is a ML Homework.
 
 6. **NUMBER OF PARAMETERS**
 
-    * Discriminator:
-    * Generator: 
+    * Discriminator: 1878242
+    * Generator: 19261264
 
 7. **MODEL EVALUATION METRIC**
 
@@ -66,6 +85,8 @@ This is a ML Homework.
     * [gen.pth]()
 
 9. **MODIFICATIONS**
+
+    Regarding modifications from the original repo and this specific ML homework are basically updates in Pytorch functions and gpu role in dataset dataloader since the original repo has a train file for multiple trainning distribution. Also, a inference file has been created in order to get a modular code for new data in 
 
 
 
@@ -110,3 +131,8 @@ Local deploy based on streamlit framework
     * OUTPUT
 
     ![](images/output.png)
+
+
+## TASK 3: Demonstration
+
+Since this is an ML homework, the Task 3 has been shared by an email to the ML Homework reviewer.
